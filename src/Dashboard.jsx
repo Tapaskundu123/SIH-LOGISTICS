@@ -51,10 +51,10 @@ const LogisticsDashboard = () => {
 
   // Sample vessel schedule data for Gantt chart
   const vesselSchedule = [
-    { vessel: 'MV Steel Carrier 1', port: 'Port A', start: 1, duration: 3, type: 'loading' },
-    { vessel: 'MV Steel Carrier 1', port: 'Port B', start: 5, duration: 2, type: 'discharge' },
-    { vessel: 'MV Bulk Master', port: 'Port C', start: 2, duration: 4, type: 'loading' },
-    { vessel: 'MV Ocean Spirit', port: 'Port A', start: 7, duration: 3, type: 'loading' }
+    { vessel: 'MV Steel Carrier 1', port: 'Plant A', start: 1, duration: 3, type: 'loading' },
+    { vessel: 'MV Steel Carrier 1', port: 'Plant B', start: 5, duration: 2, type: 'discharge' },
+    { vessel: 'MV Bulk Master', port: 'Plant C', start: 2, duration: 4, type: 'loading' },
+    { vessel: 'MV Ocean Spirit', port: 'Plant A', start: 7, duration: 3, type: 'loading' }
   ];
 
   // Sample AI predictions data
